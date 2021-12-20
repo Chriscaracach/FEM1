@@ -1,0 +1,84 @@
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  background-color: #19a2ae;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bold {
+  font-weight: 700;
+  color: #373644 !important;
+}
+
+#back__top {
+  position: absolute;
+  margin-top: -680px;
+  margin-left: -330px;
+  z-index: -1 !important;
+}
+
+#back__bottom {
+  position: absolute;
+  margin-top: 190px;
+  margin-left: 630px;
+  z-index: -1 !important;
+}
+
+#card__container {
+  width: 333px;
+  height: 357px;
+  border-radius: 15px;
+  background-color: white;
+  padding: 0;
+  z-index: 99 !important;
+}
+#card__container #top__container {
+  width: 100%;
+  height: 37.5%;
+  background: url(../images/bg-pattern-card.svg);
+  border-radius: 15px 15px 0 0;
+}
+#card__container #top__container #top__background {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+#card__container #bottom__container {
+  padding-top: 65px;
+}
+#card__container #bottom__container #bottom__row {
+  border-top: 2px solid #f4f4f4;
+  width: 100%;
+  padding: 10px;
+}
+#card__container #bottom__container #bottom__name {
+  margin-bottom: 0.3rem !important;
+  color: #3e3e47;
+}
+#card__container #bottom__container #bottom__city {
+  font-size: 13px !important;
+  margin-bottom: 22px;
+  color: #969696;
+}
+#card__container #bottom__container .bottom__statnumber {
+  margin-top: 0.5rem;
+  margin-bottom: 0 !important;
+  color: #3e3e47;
+}
+#card__container #bottom__container .bottom__statword {
+  font-size: 11px;
+  color: #969696;
+}
+#card__container #bottom__img {
+  width: 30%;
+  border: 5px solid white;
+  position: absolute;
+  left: 117px;
+  top: 85px;
+  z-index: 999;
+}
+
+/*# sourceMappingURL=styles.css.map */

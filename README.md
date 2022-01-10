@@ -25,7 +25,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Github repository](https://github.com/Chriscaracach/FEM1)
+- Solution Repository: [Github repository](https://github.com/Chriscaracach/FEM1)
+- Solution URL. [URL](https://frontendmentor-1-omega.vercel.app/)
 
 ### Built with
 
